@@ -1,16 +1,16 @@
-### Hi there 👋
+import bubbles
 
-<!--
-**realBubbles/realBubbles** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  class Scriptkiddie:
 
-Here are some ideas to get you started:
+    def __init__(self):
+        self.name = "Diana"
+        self.role = "Beginner 🌱"
+        self.language_spoken = ["de_AT", "en_UK", "hu_HU"]
+        self.discord_name = "re4lbubbles"
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def say_hi(self):
+        print("Hello, thanks for having a look at my profile!")
+
+
+  me = Scriptkiddie()
+  me.say_hi()
