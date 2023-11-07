@@ -3,8 +3,10 @@ import bubbles
 
   class Scriptkiddie:
     def __init__(self):
-        self.name = "Diana"
-        self.role = "Beginner 🌱"
+        self.name = "Diana 👩🏻‍💻"
+        self.role = "beginner 🌱"
+        self.language = "python 🐍"
+        self.work = "computer scientist 🛡️"
         self.language_spoken = ["de_AT", "en_UK", "hu_HU"]
         self.discord_name = "re4lbubbles"
 
