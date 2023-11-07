@@ -1,7 +1,7 @@
+```
 import bubbles
 
   class Scriptkiddie:
-
     def __init__(self):
         self.name = "Diana"
         self.role = "Beginner 🌱"
@@ -11,6 +11,6 @@ import bubbles
     def say_hi(self):
         print("Hello, thanks for having a look at my profile!")
 
-
   me = Scriptkiddie()
   me.say_hi()
+```
